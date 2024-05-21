@@ -9,6 +9,7 @@ import { ButtonSearchbarComponent } from './shared/components/atoms/button-searc
 import { ImgProfileComponent } from './shared/components/atoms/img-profile/img-profile.component';
 import { ButtonProfileComponent } from './shared/components/atoms/button-profile/button-profile.component';
 import { ANavComponent } from './shared/components/atoms/a-nav/a-nav.component';
+import { LoginButtonComponent } from './shared/components/atoms/login-button/login-button.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ANavComponent } from './shared/components/atoms/a-nav/a-nav.component';
     ButtonSearchbarComponent,
     ImgProfileComponent,
     ButtonProfileComponent,
-    ANavComponent
+    ANavComponent,
+    LoginButtonComponent
   ],
   imports: [
     BrowserModule,
