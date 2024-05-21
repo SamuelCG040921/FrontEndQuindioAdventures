@@ -10,6 +10,9 @@ import { ImgProfileComponent } from './shared/components/atoms/img-profile/img-p
 import { ButtonProfileComponent } from './shared/components/atoms/button-profile/button-profile.component';
 import { ANavComponent } from './shared/components/atoms/a-nav/a-nav.component';
 import { LoginButtonComponent } from './shared/components/atoms/login-button/login-button.component';
+import { SearchBarComponent } from './shared/components/molecules/search-bar/search-bar.component';
+import { RegisterButtomComponent } from './shared/components/molecules/register-buttom/register-buttom.component';
+import { NavBarComponent } from './shared/components/molecules/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { LoginButtonComponent } from './shared/components/atoms/login-button/log
     ImgProfileComponent,
     ButtonProfileComponent,
     ANavComponent,
-    LoginButtonComponent
+    LoginButtonComponent,
+    SearchBarComponent,
+    RegisterButtomComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
