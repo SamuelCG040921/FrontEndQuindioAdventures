@@ -13,6 +13,7 @@ import { LoginButtonComponent } from './shared/components/atoms/login-button/log
 import { SearchBarComponent } from './shared/components/molecules/search-bar/search-bar.component';
 import { RegisterButtomComponent } from './shared/components/molecules/register-buttom/register-buttom.component';
 import { NavBarComponent } from './shared/components/molecules/nav-bar/nav-bar.component';
+import { HeaderComponent } from './shared7components/organisms/header/header.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NavBarComponent } from './shared/components/molecules/nav-bar/nav-bar.c
     LoginButtonComponent,
     SearchBarComponent,
     RegisterButtomComponent,
-    NavBarComponent
+    NavBarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
